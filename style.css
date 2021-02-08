@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url("https://miro.medium.com/max/12032/0*VB5zcgdLaFDP7Fuq");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ul{
+    text-align: left;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+li{
+    display: inline;
+    margin: 15px;
+}
+li:hover{
+    background: #ef2;
+}
+.section1{
+    background: linear-gradient(#ef20f3 0%, #20f3ef 100%);
+    margin: 50px auto;
+    padding: 10px;
+}
+.section1 img{
+    border-radius: 50%;
+}
+#section2{
+    background: linear-gradient(#eff320 0%, #f37 100%);
+    margin: 50px auto;
+    padding: 10px;
+}
+#line{
+    height: 10px;
+    width: 250px;
+    background-color: black;
+    margin: 8px auto;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+#My_work{
+    background-image: radial-gradient(red 0%, #b25a38 100%)
+}
+#Inspiration{
+    background-image: linear-gradient(#f2fa14 0%, #14c0fa 100%)
+}
